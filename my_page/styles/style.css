@@ -1,0 +1,102 @@
+/* Color Theme Swatches in RGBA */
+.Diseño-gráfico-1-rgba { color: rgba(32, 31, 38, 1); }
+.Diseño-gráfico-2-rgba { color: rgba(216, 213, 210, 1); }
+.Diseño-gráfico-3-rgba { color: rgba(242, 242, 242, 1); }
+.Diseño-gráfico-4-rgba { color: rgba(114, 114, 114, 1); }
+.Diseño-gráfico-5-rgba { color: rgba(12, 12, 12, 1); }
+
+oseidon-5-rgba { color: rgba(217, 252, 186, 1); }
+
+html {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+}
+
+.left {
+    position: fixed; 
+    left: 0; 
+    top: 0; 
+    background-color: rgba(242, 242, 242, 1);
+    width: 20%;
+    height: 100%; 
+    padding: 10px;
+    color: balck;
+    border-color: black;
+    border:  10px solid;
+}
+
+.left img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.right {
+    position: absolute;
+    left: 25%;
+    right: 10%; 
+    width: 70%; 
+    padding: 10px;
+    top: 0; 
+    bottom: 0; 
+    color: white;
+}
+
+.title1 {
+    position: relative;
+}
+
+.title1 h2 {
+    position: relative;
+    display: inline-block;
+}
+
+.title1 h2::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: -5%;
+    width: 5px; 
+    height: 70%;
+    background-color: rgba(242, 242, 242, 1);
+    transform: translateY(-50%); 
+}
+
+.pasatiempos {
+    background-color: rgba(242, 242, 242, 1);
+    margin: 1rem 0rem;
+    border-color: black;
+    border: solid;
+    padding: 0.25rem 0rem;
+    cursor: default;
+    width: 90%;
+    height: 80vh; 
+    overflow-y: auto; 
+    margin-bottom: 2rem; 
+}
+
+.pasatiempos h3, .pasatiempos p {
+    margin: 1rem;
+    color: black;
+}
+
+.pasatiempos img {
+    width: 100%;
+}
+
+.redes-sociales a {
+    transition: color 0.3s ease;
+    color: white;
+    text-decoration: none;
+}
+
+.redes-sociales a:hover {
+    color: cornflowerblue;
+}
+
+.bordered th, .bordered td {
+    border: 1px solid white; 
+}
+
+.tabla-calificaciones {
+    float: right;
+}
